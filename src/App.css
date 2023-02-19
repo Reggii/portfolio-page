@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+/* .bg{
+  background: url(https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOS-RmmLQI-YGskPVd1ZTn0Z0_F5EVRE2sGOCc4Y0WRi6SgjAzf1tSJeuX4wzoaNGA447Xcsc3EFiYygmu6pwWz-sD2LuA=w3976-h3308)
+  no-repeat center center fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  transition: opacity 1s
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&family=Roboto+Mono:wght@300;600;700&display=swap');
+
+:root {
+  --section-one-bg: #53834f;
+  --section-one-text: #e0e0e0;
+  --section-two-bg: rgb(51, 51, 51);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainBody {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--section-one-bg);
+  height: 20rem;
+  width: 100vw;
+}
+
+.bg {
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(51, 51, 51);
+  width: 100vw;
+}
+
+.typed-cursor {
+  font-family: Roboto Mono;
+  font-size: 2.2rem;
+  font-weight: bold;
+  width: auto;
+  color: var(--section-one-text);
+}
+
+/* Header */
+
+.headerWrap {
+  padding-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  display: inline;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.mainHeader {
+  font-family: Roboto Mono;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d9e993;
+  gap: 1.1rem;
+  display: inline-flex;
+  cursor: text;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerTxt {
+  cursor: pointer;  
+}
+
+.headerTxt:hover  {
+  color: #edf7c6;
+}
+
+/* Intro */
+
+.introWrap {
+  position: relative;
+  align-items: center;
+  text-align: center; 
+  padding-top: 1.5rem;
+}
+
+.introText {
+  font-family: Roboto Mono;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: auto;
+  color: var(--section-one-text);
+  cursor: text;
+}
+
+/* About */
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 2em;
+  z-index: 900;
+}
+
+.aboutWrap {
+background: var(--section-one-bg);
+width: 100vw;
+}
+
+.aboutSection {
+  font-family: Roboto Mono;
+  font-size: small;
+  color: var(--section-one-text);
+  padding: 1rem;
+  max-width: 500px;
+  min-width: 320px;
+  background-color: var(--section-one-bg);
+  overflow: hidden;
+}
+
+/* Wave */
+.wave {
+  margin-top: 4rem;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+  line-height: 0;
+  /* z-index: 1000; */
+  /* min-width: 10rem; */
+  background: var(--section-two-bg);
+}
+
+.wave svg {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: calc(140% + 1.3px);
+  height: 224px;
+  filter: drop-shadow(2px 4px 1px rgb(0 0 0 / 0.4));
+}
+
+.wave .shape-fill {
+  fill: var(--section-one-bg);
+}
+
+/* Stack */
+.stackWrap {
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--section-two-bg);
+  width: auto;
+  height: auto;
+  z-index: 1100;
+  top: -4.7rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.stackIntro {
+  position: absolute;
+  background-color: var(--section-two-bg);
+  font-family: Roboto Mono;
+  font-size: 0.86rem;
+  font-weight: bold;
+  width: 100vw;
+  color: var(--section-one-text);
+  cursor: text;
+  flex-wrap: wrap;
+  top: 0.5rem;
+}
+
+.stackIconsText {
+  position: absolute;
+  display: flex;
+  /* flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  flex-wrap: wrap; */
+}
+
+.stackIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+}
+
+
+.jsTxt, .pythonTxt, .reactTxt, .mysqlTxt, .djangoTxt {
+  position: absolute;
+  font-family: Roboto Mono;
+  font-size: 0.8rem;
+  top: 7.5rem;
+  font-weight: bold;
+  width: auto;
+  color: var(--section-one-text);
+  cursor: text;
+  flex-wrap: wrap;
+}
+
+.pythonTxt {
+  left: 1.65rem;
+}
+
+.jsTxt {
+  left: 6.55rem;
+}
+
+.reactTxt {
+  left: 13.22rem;
+}
+
+.mysqlTxt {
+  left: 20rem;
+}
+
+.djangoTxt {
+  left: 26rem;
 }
