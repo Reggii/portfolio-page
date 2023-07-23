@@ -23,10 +23,15 @@ function Header() {
             typed.current.destroy();
         };
     }, []);
+
+    function openCV (event) {
+        event.preventDefault();
+        window.open('https://drive.google.com/file/d/1yWQaQaE_UNy5obVUrCpTBMO7CJMIW7Db/view?usp=drive_link')
+    }
     return (
             <div className={'headerWrap'}>
                 <ul className={'mainHeader'}>
-                    <li className='headerTxt' href='google.com'>CV</li>
+                    <li className='headerTxt' onClick={openCV}>CV</li>
                     <li className='headerTxt'>Portfolio</li>
                     <li className='headerTxt'>Contact</li>
                 </ul>
