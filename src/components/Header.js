@@ -26,7 +26,7 @@ function Header() {
     return (
             <div className={'headerWrap'}>
                 <ul className={'mainHeader'}>
-                    <li className='headerTxt'>CV</li>
+                    <li className='headerTxt' href='google.com'>CV</li>
                     <li className='headerTxt'>Portfolio</li>
                     <li className='headerTxt'>Contact</li>
                 </ul>
