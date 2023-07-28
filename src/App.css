@@ -225,6 +225,8 @@ padding-top: 3rem;
 	display: flex;
   flex-direction: column;
 	justify-content: center;
+  align-items: center;
+  align-content: center;
 	text-align: center;
 	width: 100vw;
 	background-color: var(--section-two-bg);
@@ -307,7 +309,6 @@ padding-top: 3rem;
   position: relative;
   cursor: pointer;
   width: fit-content;
-  left: 45.8rem;
 }
 
 .ccgit:hover {
@@ -382,7 +383,6 @@ padding-top: 3rem;
   position: relative;
   cursor: pointer;
   width: fit-content;
-  left: 45.8rem;
 }
 
 .ecomgit:hover {
