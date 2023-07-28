@@ -28,13 +28,19 @@ function Header() {
         event.preventDefault();
         window.open('https://drive.google.com/file/d/1yWQaQaE_UNy5obVUrCpTBMO7CJMIW7Db/view?usp=drive_link')
     }
+
+    function openGithub (event) {
+        event.preventDefault();
+        window.open('https://github.com/reggii')
+    }
+    
     return (
             <div className={'headerWrap'}>
                 <ul className={'mainHeader'}>
                     <li className='headerTxt' onClick={openCV}>CV</li>
-                    <li className='headerTxt'>Portfolio</li>
-                    <li className='headerTxt'>Contact</li>
+                    <li className='headerTxt' onClick={openGithub}>Github</li>
                 </ul>
+                <li className='emailLink' style={{fontSize: '1rem', marginTop: '0.3rem'}}>elm.rihhard@gmail.com</li>
                 <div className={'introWrap'}>
                     <span className={'introText'} ref={el}>
                     </span>

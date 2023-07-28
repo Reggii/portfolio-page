@@ -59,6 +59,15 @@ body {
   color: #edf7c6;
 }
 
+.emailLink {
+  font-family: Roboto Mono;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d9e993;
+  gap: 1.1rem;
+  cursor: default;
+}
+
 /* ////// Intro ////// */
 
 .introWrap {
@@ -214,6 +223,7 @@ padding-top: 3rem;
 
 .projectsWrap {
 	display: flex;
+  flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	width: 100vw;
@@ -223,12 +233,161 @@ padding-top: 3rem;
 }
 
 .projectsIntro {
-	font-family: Roboto Mono;
-	font-size: 0.86rem;
+  font-family: Roboto Mono;
+	font-size: 1rem;
 	color: var(--section-one-text);
   cursor: default;
-  max-width: 500px;
+	padding: 0rem 3rem 0rem 3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.chitchatlyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.chitchatly {
+	font-family: Roboto Mono;
+	font-size: 2rem;
+	color: rgb(118, 207, 118);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  text-shadow:  3px 3px #000000;
+  font-weight: bold;
+  margin: 1rem;
 } 
+
+.chitchatlygif {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.ccdescription {
+  font-family: Roboto Mono;
+	font-size: 1rem;
+	color: var(--section-one-text);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  font-weight: bold;
+  position: relative;
+  top: 0rem;
+}
+
+.cclink {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #cfcf90;
+  width: fit-content;
+}
+
+.cclink:hover {
+  color: #e6e6a5;;
+}
+
+.cctech {
+  position: relative;
+  top: 1.6rem;
+}
+
+.ccgit {
+	font-family: Roboto Mono;
+	font-size: 1.2rem;
+	color: var(--section-one-text);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  text-shadow:  3px 3px #000000;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+  left: 45.8rem;
+}
+
+.ccgit:hover {
+  color: rgb(207, 206, 206);
+}
+
+
+/* ------- E-Comm Store --------*/
+
+.e-comm {
+  font-family: Roboto Mono;
+	font-size: 2rem;
+	color: rgb(118, 207, 118);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  text-shadow:  3px 3px #000000;
+  font-weight: bold;
+  margin-top: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.e-commWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.cmdfashion {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.ecomdescription {
+  font-family: Roboto Mono;
+	font-size: 1rem;
+	color: var(--section-one-text);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  font-weight: bold;
+  position: relative;
+  top: -1.4rem;
+}
+
+.ecomlink {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #cfcf90;
+  width: fit-content;
+}
+
+.ecomlink:hover {
+  color: #e6e6a5;;
+}
+
+.ecomtech {
+  position: relative;
+  top: 1.6rem;
+}
+
+.ecomgit {
+	font-family: Roboto Mono;
+	font-size: 1.2rem;
+	color: var(--section-one-text);
+  cursor: default;
+	padding: 0rem 3rem 0rem 3rem;
+  text-shadow:  3px 3px #000000;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+  left: 45.8rem;
+}
+
+.ecomgit:hover {
+  color: rgb(207, 206, 206);
+}
 
 /* //////// Footer Section + Wave //////// */
 

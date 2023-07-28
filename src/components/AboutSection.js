@@ -9,9 +9,9 @@ function AboutSection() {
                 </div>
                 <div className={'aboutSection'}>
                 Thank you for deciding to check out my portfolio! <br/>
-
+                <br/>
 I have over a year of experience with software development, received my Python programming certificate from SD Academy (340 academic hours) this year and have an endless curiosity for learning new web technologies. <br/>
-
+                <br/>
 Feel free to browse my personal projects below and lets stay in touch via e-mail!
                 </div>
             </div>
