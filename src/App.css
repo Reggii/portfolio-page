@@ -272,6 +272,11 @@ padding-top: 3rem;
   min-width: 400px;
   filter: drop-shadow(10px 10px 4px #000);
   border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.chitchatlygif:hover {
+  opacity: 0.8;
 }
 
 .ccdescription {
@@ -351,7 +356,13 @@ padding-top: 3rem;
   min-width: 400px;
   filter: drop-shadow(10px 10px 4px #000);
   border-radius: 10px;
+  transition: 0.5s ease;
 }
+
+.cmdfashion:hover {
+  opacity: 0.8;
+}
+
 
 .ecomdescription {
   font-family: Roboto Mono;
