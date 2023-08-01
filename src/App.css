@@ -250,6 +250,7 @@ padding-top: 3rem;
   align-items: center;
   justify-content: center;
   text-align: start;
+  white-space: nowrap;
 }
 
 .chitchatly {
@@ -268,6 +269,7 @@ padding-top: 3rem;
   position: relative;
   display: flex;
   flex-direction: row;
+  min-width: 400px;
 }
 
 .ccdescription {
@@ -335,6 +337,7 @@ padding-top: 3rem;
   align-items: center;
   justify-content: center;
   text-align: start;
+  white-space: nowrap;
 }
 
 .cmdfashion {
@@ -342,6 +345,7 @@ padding-top: 3rem;
   position: relative;
   display: flex;
   flex-direction: row;
+  min-width: 400px;
 }
 
 .ecomdescription {
