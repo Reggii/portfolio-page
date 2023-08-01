@@ -271,6 +271,7 @@ padding-top: 3rem;
   flex-direction: row;
   min-width: 400px;
   filter: drop-shadow(10px 10px 4px #000);
+  border-radius: 10px;
 }
 
 .ccdescription {
@@ -348,6 +349,7 @@ padding-top: 3rem;
   flex-direction: row;
   min-width: 400px;
   filter: drop-shadow(10px 10px 4px #000);
+  border-radius: 10px;
 }
 
 .ecomdescription {
