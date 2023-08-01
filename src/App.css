@@ -290,6 +290,7 @@ padding-top: 3rem;
   cursor: pointer;
   color: #cfcf90;
   width: fit-content;
+  text-shadow: 3px 3px #000;
 }
 
 .cclink:hover {
@@ -368,6 +369,7 @@ padding-top: 3rem;
   cursor: pointer;
   color: #cfcf90;
   width: fit-content;
+  text-shadow: 3px 3px #000;
 }
 
 .ecomlink:hover {
