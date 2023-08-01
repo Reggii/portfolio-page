@@ -40,7 +40,7 @@ function Header() {
                     <li className='headerTxt' onClick={openCV}>CV</li>
                     <li className='headerTxt' onClick={openGithub}>Github</li>
                 </ul>
-                <li className='emailLink' style={{fontSize: '1rem', marginTop: '0.3rem'}}>elm.rihhard@gmail.com</li>
+                <div className='emailLink' style={{fontSize: '1rem', marginTop: '0.3rem'}}>elm.rihhard@gmail.com</div>
                 <div className={'introWrap'}>
                     <span className={'introText'} ref={el}>
                     </span>
