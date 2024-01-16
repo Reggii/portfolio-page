@@ -5,7 +5,7 @@ function AboutSection() {
         <section className={'aboutWrap'}>
             <div className='aboutSubWrap'>
                 <div className='aboutImg'>
-                    <img src='https://www.linkpicture.com/q/haze-programmer-writing-code-on-laptop-1-1.png'></img>
+                    <img src='haze-laptop.png'></img>
                 </div>
                 <div className={'aboutSection'}>
                 Thank you for deciding to check out my portfolio! <br/>
